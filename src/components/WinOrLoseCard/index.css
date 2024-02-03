@@ -1,0 +1,29 @@
+/* Write your code here. */
+.resultCard {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255,255,255,0.2);
+    padding: 30px;
+    border-radius: 20px;;
+}
+.resultDiv {
+    text-align: center;
+    padding-right: 10px;
+    color: white;
+}
+.resultImg {
+    height: 300px;
+}
+.playNowBtn {
+    background-color: #ffce27;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-weight: 500;
+    color: #3d3d3d;
+}
+.score {
+    color: #6a59ff;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,35 @@
+/* Write your code here. */
+.body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+    min-height: 100vh;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    max-height: 800px;
+    padding: 20px;
+  }
+  .gameDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 8px;
+    column-gap: 8px;
+  }
+  button {
+    cursor: pointer;
+    outline: none;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  @media (max-width: 767px) {
+    .gameDiv {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  
