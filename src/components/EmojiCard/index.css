@@ -9,3 +9,8 @@
     border: 2px solid #ffffff33;
     border-radius: 15px;
 }
+@media (max-width: 567px) {
+    .cardImg {
+        height: 50px;
+    }
+}
